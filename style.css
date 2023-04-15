@@ -1,0 +1,380 @@
+body {
+  display: grid;
+  justify-content: center;
+  background-image: url('./images/fondo.gif');
+  background-repeat: repeat;
+  background-size: 110%;
+
+}
+.letter{
+  max-width: 30px 30px;
+}
+
+.encriptador_tittle {
+  font-family: src:'https://kinsta.com/es/blog/fuentes-seguras-para-la-web/#10-copperplate-gothic', cursive;
+  text-align: center;
+  font-size: 36px;
+  /* margin-bottom: 30px; */
+  width: 100%;
+  /* height: 100%; */
+  /* padding: 50px; */
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(45deg, rgba(171,71,188,1.000), #673AB7);
+  /* font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 1rem; */
+}
+
+.content {
+  /* width: 1440px;
+  height: 1024px; */
+  border-color: cornflowerblue;
+  /* border: dashed; */
+  background-color: transparent;
+  max-width: 1124px;
+}
+
+.content-areas {
+  display: flex;
+  /* margin: 10px 20px 10px 20px; */
+}
+
+button {
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-copy-class {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-content-copy {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-encriptar {
+  background: #5B2C6F;
+  box-shadow: 0 14px 50px -4px hsla(0, 0%, 0%, 0.15);
+  color: white;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn-desencriptar {
+  background-color: #AB47BC;
+  box-shadow: 0 14px 50px -4px hsla(0, 0%, 0%, 0.15);
+  color: rgb(10, 56, 113);
+  border-color: rgb(10, 56, 113, 0.66);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn-copy {
+  background-color: transparent;
+  color: rgb(10, 56, 113);
+  border-color: rgb(10, 56, 113, 0.66);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.btn-copy-no-visible {
+  background-color: transparent;
+  color: rgb(10, 56, 113);
+  border-color: rgb(10, 56, 113, 0.66);
+  font-size: 1.15rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.textarea-enc {
+  width: 104%;
+   background-image: url('./images/textarea.gif');
+  background-repeat: repeat;
+  background-size: 500px 500px;
+  border: none;
+  height: 502px;
+
+  font-size: 1.15rem;
+  color: #FFFFFF;
+}
+
+.textarea-enc:focus {
+  outline: none;
+}
+
+.textarea-dec {
+  width: 100%;
+  background-image: url('./images/backgroundarea2.gif');
+  background-repeat: repeat;
+  background-size: 120%;
+  border: none;
+  height: 500px;
+  font-size: 1.15rem;
+  color: #FFFFFF
+}
+
+.textarea-dec:focus {
+  outline: none;
+}
+
+.textarea-init {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  height: 500px;
+  font-size: 1.15rem;
+      background-image:url('./images/backgroundarea2.gif');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.textarea-background {
+  width: 245px;
+    height: 550px;
+    background-size: 130%;
+ background-image: url("./images/backgroundarea2.gif");
+}
+
+.letter {
+  width: 15%;
+  margin: 0px 20px 0px 20px;
+}
+
+.area1 {
+  width: 60%;
+  margin: 0px 20px 0px 20px;
+}
+
+.area2 {
+  width: 25%;
+  height: 580px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 20px 20px 20px;
+}
+
+.frm-rodapie {
+  width: 100%;
+}
+
+.rodapie {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  text-align: center;
+}
+
+.rodapie:focus {
+  outline: none;
+}
+
+.rodapie-topo {
+  background-image: linear-gradient(265deg, #43cbff, #688cff);
+  padding: 1.2em 0;
+  color: white;
+}
+
+.rodapie-topo::after,
+.rodapie-topo::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.rodapie-topo__label:hover {
+  opacity: 0.5;
+}
+
+.input-alert-message {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #c1cb31;
+  font-size: 25px;
+}
+
+.input-alert-message:focus {
+  outline: none;
+}
+
+.alert-div {
+  color: rgb(112, 113, 117);
+  display: flex;
+}
+
+.alert-div {
+  color: rgb(112, 113, 117);
+  display: flex;
+  height: 18px;
+}
+
+.alert-img {
+  width: 39px;
+}
+
+.image-nada {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+.no-visible {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center2 {
+  text-align: center;
+  color: rgb(112, 113, 117);
+}
+
+.frm-rodapie {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    /* width: 576; */
+    /* height: 1024px; */
+    border-color: cornflowerblue;
+    /* border: dashed; */
+    background-color: rgb(243, 245, 252);
+    /* background-color: blueviolet; */
+  }
+
+  .textarea-init {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 500px;
+    font-size: 1.15rem;
+  }
+
+  .content-areas {
+    display: flex;
+    margin: 10px 30px 10px 10px;
+    flex-direction: column;
+  }
+
+  .letter {
+    width: 100%;
+    margin: 0px 10px 0 10px;
+  }
+  
+  .area1 {
+    width: 100%;
+    margin: 0px 10px 0 10px;
+  }
+  
+  .area2 {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 10px 0 10px;
+  }
+  
+  .btn-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .textarea-dec {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 150px;
+    font-size: 1.15rem;
+  }
+
+  button {
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0 5px 0px;
+  }
+
+
+  
+  
+  .btn-copy {
+    background-color: #AB47BC;
+    color: rgb(10, 56, 113);
+    border-color: rgb(10, 56, 113, 0.66);
+    font-size: 1.15rem;
+    cursor: pointer;
+    width: 90%;
+  }
+}
+
+/* ***************************** */
+footer {
+  background-image: url("./images/bannerFooter.png");
+  background-size: 57%;
+  color: #fff;
+  padding: 20px;
+    }
+
+.rodapie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Bebas Neue;
+}
+
+.nombre {
+  font-size: 24px;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.redes a {
+  color: #FFFFFF;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.redes a:hover {
+  text-decoration: underline;
+}
+.redes p {
+  font-size: 22px;
+  font-family: Bebas Neue;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}

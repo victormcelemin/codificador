@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/icono.png">
+</head>
+<body>
+
+ <div class="content">
+      <h2 class="encriptador_tittle">ENCRIPTADOR FUTURISTA</h2>
+      <div class="content-areas">
+          <div class="letter">
+            <img src="./images/alura.jpg" alt="alura" width="90" height="90"/>
+          </div>
+
+        <div class="area1">
+          <textarea
+            name="mensaje1"
+            id="mensaje1"
+            class="textarea-enc"
+            rows="10"
+            cols="50"
+            placeholder="Escribe aquí tu mensaje"
+          ></textarea>
+
+          <div class="alert-div">
+            <img src="./images/warning.gif" alt="alert" class="alert-img" />
+            <input
+              type="text"
+              class="input-alert-message"
+              value="Solo letras minúsculas y sin acentos!!!!!!"
+              readonly
+            />
+          </div>
+
+          <div class="btn-content">
+            <button
+              name="encriptar"
+              onclick="encriptar()"
+              class="btn-encriptar"
+            >
+              Encriptar
+            </button>
+            <button
+              name="recibir"
+              onclick="desencriptar()"
+              class="btn-desencriptar"
+            >
+              Desencriptar
+            </button>
+          </div>
+        </div>
+
+        <div class="area2">
+          <textarea
+            name="mensaje2"
+            id="mensaje2"
+            class="textarea-dec no-visible"
+            rows="10"
+            cols="50"
+            readonly
+            placeholder="Aquí se verá tu mensaje encriptado/desencriptado"
+          ></textarea>
+          <div class="textarea-background" id="textarea-background-id">
+           
+            <h1 class="text-center" style="display: block">
+              Ningún mensaje fue encontrado
+            </h1>
+            <h3 class="text-center2" style="display: block">
+              Ingresa el texto que desees encriptar o desencriptar.
+            </h3>
+          </div>
+          
+          <div class="btn-content-copy" name="btn-content-copy">
+            <div class="alert-div2">
+              <input
+                type="text"
+                class="input-alert-message"
+                value=""
+                readonly
+              />
+            </div>
+
+            <div class="btn-copy-class">
+              <button
+                name="copiar"
+                id="copiar"
+                onclick="copiarAlPortapapeles()"
+                class="btn-copy"
+                style="display: none"
+
+              >
+                Copiar
+              </button>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    <footer>
+    <div class="rodapie">
+    <div class="nombre">
+      <p>programador por:</p>
+      <p>Victor Manuel Celemin</p>
+
+    </div>
+    <div class="redes">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <p >redes Sociales:</p>
+      <a href="https://www.linkedin.com/in/victor-manuel-celemin-osorio-b39697260/"> Linkedin </a>
+      <a href="https://github.com/victormcelemin"> Github </a>
+      
+    </div>
+  </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
